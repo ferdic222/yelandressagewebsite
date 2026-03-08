@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yelan Dressage — Wellness in the art of dressage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#" class="logo">Yelan Dressage</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#philosophy">Philosophy</a></li>
+        <li class="nav-item-dropdown">
+          <a href="#horse-wellness" class="nav-dropdown-trigger">Wellness</a>
+          <ul class="nav-dropdown">
+            <li><a href="#horse-wellness">Horse wellness</a></li>
+            <li><a href="#rider-wellness">Rider wellness</a></li>
+          </ul>
+        </li>
+        <li><a href="#dressage-training">Dressage training</a></li>
+        <li><a href="#scheduling">Scheduling</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <div class="carousel-wrap">
+    <div class="carousel" data-carousel>
+      <div class="carousel-track">
+        <div class="carousel-slide">
+          <img src="assets/carousel-1.png" alt="" />
+        </div>
+        <div class="carousel-slide">
+          <img src="assets/carousel-2.png" alt="" />
+        </div>
+        <div class="carousel-slide">
+          <img src="assets/carousel-3.png" alt="" />
+        </div>
+        <div class="carousel-slide">
+          <img src="assets/carousel-4.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero">
+      <h1 class="hero-title">
+        <span class="line">Wellness in the</span>
+        <span class="line accent">art of dressage.</span>
+      </h1>
+      <p class="hero-subtitle">
+        Dedicated to the well-being of both horse and rider—and to the highest level of communication. Better riding, mindful horsemanship, and care that honors the whole partnership.
+      </p>
+      <div class="hero-actions">
+        <a href="#about" class="btn btn-primary">Discover</a>
+        <a href="#horse-wellness" class="btn btn-ghost">Horse wellness</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2 class="section-title">About</h2>
+      <p class="section-text">
+        Yelan Dressage is a private, exclusive club and a focused platform for serious riders. Our approach prioritizes the understanding of classical dressage <strong>fundamentals</strong>, <strong>balanced training</strong>, and <strong>refined communication</strong> between horse and rider—leading to <strong>harmony</strong> and <strong>wellness</strong> in body and mind for both. Understanding and subtlety in the partnership sit at the center of what we do.
+      </p>
+    </section>
+
+    <section id="philosophy" class="section section--alt">
+      <h2 class="section-title">Philosophy</h2>
+      <div class="card-grid">
+        <article class="card">
+          <div class="card-number">Dressage</div>
+          <h3 class="card-title">The Discipline</h3>
+          <p class="card-text">Classical principles and progressive training at the pace of the horse—toward harmony and communication.</p>
+        </article>
+        <article class="card">
+          <div class="card-number">Rider</div>
+          <h3 class="card-title">The Lead Dancer</h3>
+          <p class="card-text">Feeling, communication skills, and balance. We support riders in body awareness and the calligraphy of their own language with the horse, finding optimal balance in the saddle and beyond.</p>
+        </article>
+        <article class="card">
+          <div class="card-number">Horse</div>
+          <h3 class="card-title">The Partner</h3>
+          <p class="card-text">Wellness, happiness, confidence, and trust. The horse’s wellbeing always comes first <span class="card-period">PERIOD.</span></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="horse-wellness" class="section">
+      <h2 class="section-title">Horse wellness</h2>
+      <p class="section-text section-intro">
+        For the performance horse, we seek not medical treatment but <strong>daily wellness balance</strong>—recovery, respiration, and conditioning that support intensive training and keep the horse in optimal condition.
+      </p>
+      <div class="tabs" data-tabs>
+        <div class="tabs-list" role="tablist">
+          <button type="button" class="tab-btn active" role="tab" aria-selected="true" aria-controls="panel-hofmag" id="tab-hofmag" data-tab="hofmag">Hofmag</button>
+          <button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-inhalation" id="tab-inhalation" data-tab="inhalation">Inhalation</button>
+          <button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-aqua" id="tab-aqua" data-tab="aqua">Aqua trainer</button>
+        </div>
+        <div class="tab-panels">
+          <div class="tab-panel active" id="panel-hofmag" role="tabpanel" aria-labelledby="tab-hofmag" data-panel="hofmag">
+            <div class="tab-panel-media">
+              <img src="assets/hofmag-therapy.png" alt="Hofmag pulsed electromagnetic field therapy session with a horse in a stable" width="1200" height="800" />
+            </div>
+            <div class="tab-panel-inner">
+              <span class="card-number">Recovery</span>
+              <h3 class="card-title">Hofmag</h3>
+              <p class="card-text">Next-generation pulsed electromagnetic field (PEMF) therapy to support recovery and rehabilitation. Used to accelerate healing, relax muscles, and maintain the horse’s readiness for demanding work. FEI permitted.</p>
+              <a href="pages/hofmag.html" class="card-link">Learn more</a>
+            </div>
+          </div>
+          <div class="tab-panel" id="panel-inhalation" role="tabpanel" aria-labelledby="tab-inhalation" data-panel="inhalation">
+            <div class="tab-panel-inner">
+              <span class="card-number">Respiration & skin</span>
+              <h3 class="card-title">Inhalation</h3>
+              <p class="card-text">Maintain lung and skin wellness with our inhalation system. Supports respiratory health and skin condition as part of routine care for the high-performance horse.</p>
+              <a href="pages/inhalation.html" class="card-link">Learn more</a>
+            </div>
+          </div>
+          <div class="tab-panel" id="panel-aqua" role="tabpanel" aria-labelledby="tab-aqua" data-panel="aqua">
+            <div class="tab-panel-media">
+              <img src="assets/aqua-trainer.png" alt="Horse in aqua treadmill hydrotherapy unit" width="1200" height="800" />
+            </div>
+            <div class="tab-panel-inner">
+              <span class="card-number">Conditioning</span>
+              <h3 class="card-title">Aqua trainer</h3>
+              <p class="card-text">Water-based conditioning that builds fitness and supports recovery without excessive impact. An essential part of wellness programming for the sport horse in heavy training.</p>
+              <p class="card-note">Not yet available.</p>
+              <a href="pages/aqua-trainer.html" class="card-link">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="dressage-training" class="section section--alt">
+      <h2 class="section-title">Dressage training</h2>
+      <p class="section-text section-intro">
+        Classical dressage at the heart of the club. Our training is built on clear communication, correct gymnastic development, and respect for the horse’s nature—so that horse and rider progress together in balance.
+      </p>
+      <div class="section-blocks">
+        <div class="section-block">
+          <h3 class="section-block-title">Foundation & scale</h3>
+          <p class="section-text">We follow the classical scale of training: rhythm, suppleness, contact, impulsion, straightness, and collection. Each horse is brought along at his own pace, with a focus on soundness and willingness.</p>
+        </div>
+        <div class="section-block">
+          <h3 class="section-block-title">Rider in the equation</h3>
+          <p class="section-text">Good training depends on a rider who can sit in balance, apply aids clearly, and feel the horse’s response. Lessons and training sessions are tailored to develop both the horse and the rider’s seat and tact.</p>
+        </div>
+        <div class="section-block">
+          <h3 class="section-block-title">From basics to refinement</h3>
+          <p class="section-text">Whether you are establishing the basics or refining movements at a higher level, our programme supports progressive, sustainable development—with the horse’s long-term welfare and enjoyment of the work in mind.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="rider-wellness" class="section">
+      <h2 class="section-title">Rider wellness</h2>
+      <p class="section-text section-intro">
+        Dressage asks as much of the rider as of the horse. We support <strong>physical</strong> and <strong>mental</strong> wellness so that you can ride with confidence, clarity, and consistency.
+      </p>
+      <div class="section-blocks">
+        <div class="section-block">
+          <h3 class="section-block-title">Physical wellness</h3>
+          <p class="section-text">A supple, strong, and balanced body improves the quality of the aid and the comfort of the horse. We work on posture, core stability, flexibility, and alignment—both in the saddle and through off-horse practice where relevant—so that you can sit correctly and stay effective through demanding work.</p>
+        </div>
+        <div class="section-block">
+          <h3 class="section-block-title">Mental wellness</h3>
+          <p class="section-text">Focus, patience, and a calm mindset help you train with clarity and build a better partnership with your horse. We emphasise awareness, breathing, and a constructive approach to setbacks—so that riding remains a source of fulfilment and progress rather than pressure.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="scheduling" class="section">
+      <h2 class="section-title">Scheduling</h2>
+      <p class="section-text section-intro">
+        Request a session or appointment. We will confirm availability and get back to you.
+      </p>
+      <!-- Replace YOUR_FORM_ID with your Formspree form ID from https://formspree.io -->
+      <form class="scheduling-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="hidden" name="_subject" value="Yelan Dressage – scheduling request" />
+        <div class="form-row">
+          <label for="scheduling-name">Name</label>
+          <input type="text" id="scheduling-name" name="name" required placeholder="Your name" />
+        </div>
+        <div class="form-row">
+          <label for="scheduling-email">Email</label>
+          <input type="email" id="scheduling-email" name="email" required placeholder="your@email.com" />
+        </div>
+        <div class="form-row-group">
+          <div class="form-row form-row--half">
+            <label for="scheduling-date">Preferred date</label>
+            <input type="date" id="scheduling-date" name="preferred_date" />
+          </div>
+          <div class="form-row form-row--half">
+            <label for="scheduling-time">Preferred time</label>
+            <input type="text" id="scheduling-time" name="preferred_time" placeholder="e.g. morning, 2pm" />
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="scheduling-service">Service</label>
+          <select id="scheduling-service" name="service">
+            <option value="">Select…</option>
+            <option value="Dressage training">Dressage training</option>
+            <option value="Horse wellness – Hofmag">Horse wellness – Hofmag</option>
+            <option value="Horse wellness – Inhalation">Horse wellness – Inhalation</option>
+            <option value="Horse wellness – Aqua trainer (coming soon)">Horse wellness – Aqua trainer (coming soon)</option>
+            <option value="Rider wellness">Rider wellness</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="scheduling-message">Message</label>
+          <textarea id="scheduling-message" name="message" rows="4" placeholder="Any details or questions…"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send request</button>
+      </form>
+    </section>
+
+    <section id="contact" class="section section--alt">
+      <h2 class="section-title">Inquiries</h2>
+      <p class="section-text">
+        For appointments and collaboration, please reach out in confidence.
+      </p>
+      <div class="contact-details">
+        <p class="contact-item">
+          <a href="mailto:inquiries@yelandressage.com" class="contact-link">inquiries@yelandressage.com</a>
+        </p>
+        <p class="contact-item contact-address">
+          Fox Trail Ln<br />
+          Loxahatchee, FL 33470
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-copy">&copy; <span id="year"></span> Yelan Dressage Club</p>
+    <p class="footer-details">Fox Trail Ln, Loxahatchee, FL 33470</p>
+    <p class="footer-contact">Contact: Jenny Zhong</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
